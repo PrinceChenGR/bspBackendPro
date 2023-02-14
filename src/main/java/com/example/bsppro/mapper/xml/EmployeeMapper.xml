@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.bsppro.mapper.EmployeeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.bsppro.entity.Employee">
+        <id column="employeeid" property="employeeid" />
+        <result column="propertyid" property="propertyid" />
+        <result column="storeid" property="storeid" />
+        <result column="departmentid" property="departmentid" />
+        <result column="stateid" property="stateid" />
+        <result column="empname" property="empname" />
+        <result column="esex" property="esex" />
+        <result column="emplogenid" property="emplogenid" />
+        <result column="emplogepaw" property="emplogepaw" />
+        <result column="education" property="education" />
+        <result column="graduationschool" property="graduationschool" />
+        <result column="major" property="major" />
+        <result column="crrdID" property="crrdID" />
+        <result column="address" property="address" />
+        <result column="newaddress" property="newaddress" />
+        <result column="empphone" property="empphone" />
+        <result column="emergencyphone" property="emergencyphone" />
+        <result column="molphone" property="molphone" />
+        <result column="email" property="email" />
+        <result column="entrytimes" property="entrytimes" />
+        <result column="lztimes" property="lztimes" />
+        <result column="brithtimes" property="brithtimes" />
+    </resultMap>
+
+</mapper>

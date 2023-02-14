@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.bsppro.mapper.JyjcMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.bsppro.entity.Jyjc">
+        <id column="jyid" property="jyid" />
+        <result column="teamid" property="teamid" />
+        <result column="insid" property="insid" />
+        <result column="nilc" property="nilc" />
+        <result column="pgtime" property="pgtime" />
+        <result column="gototime" property="gototime" />
+        <result column="gotoaddress" property="gotoaddress" />
+        <result column="dotime" property="dotime" />
+        <result column="doaddress" property="doaddress" />
+        <result column="overtime" property="overtime" />
+    </resultMap>
+
+</mapper>

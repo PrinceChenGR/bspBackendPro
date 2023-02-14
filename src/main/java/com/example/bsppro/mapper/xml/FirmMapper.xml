@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.bsppro.mapper.FirmMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.bsppro.entity.Firm">
+        <id column="firmno" property="firmno" />
+        <result column="cityid" property="cityid" />
+        <result column="firmname" property="firmname" />
+        <result column="firmaddress" property="firmaddress" />
+        <result column="url" property="url" />
+        <result column="gsphone" property="gsphone" />
+        <result column="lxr" property="lxr" />
+        <result column="lxrphone" property="lxrphone" />
+        <result column="scity" property="scity" />
+        <result column="firmsevenst" property="firmsevenst" />
+    </resultMap>
+
+</mapper>

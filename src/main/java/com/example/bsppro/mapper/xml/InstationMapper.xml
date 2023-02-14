@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.bsppro.mapper.InstationMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.bsppro.entity.Instation">
+        <id column="insid" property="insid" />
+        <result column="wxstateid" property="wxstateid" />
+        <result column="artisanid" property="artisanid" />
+        <result column="ctsid" property="ctsid" />
+        <result column="instation" property="instation" />
+        <result column="jsyuan" property="jsyuan" />
+        <result column="joininstimes" property="joininstimes" />
+        <result column="predictcompletetime" property="predictcompletetime" />
+        <result column="predicttime" property="predicttime" />
+        <result column="budgetmoney" property="budgetmoney" />
+        <result column="insevent" property="insevent" />
+        <result column="iszn" property="iszn" />
+        <result column="ifjs" property="ifjs" />
+    </resultMap>
+
+</mapper>

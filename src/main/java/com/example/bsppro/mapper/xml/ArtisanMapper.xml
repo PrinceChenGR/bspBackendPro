@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.bsppro.mapper.ArtisanMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.bsppro.entity.Artisan">
+        <id column="artisanid" property="artisanid" />
+        <result column="teamid" property="teamid" />
+        <result column="starsid" property="starsid" />
+        <result column="isgroup" property="isgroup" />
+        <result column="aname" property="aname" />
+        <result column="asex" property="asex" />
+        <result column="aphone" property="aphone" />
+        <result column="loginaid" property="loginaid" />
+        <result column="loginapaw" property="loginapaw" />
+        <result column="idcaid" property="idcaid" />
+        <result column="araddress" property="araddress" />
+        <result column="craft" property="craft" />
+        <result column="maintainBrand" property="maintainBrand" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.bsppro.mapper.DimissionMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.bsppro.entity.Dimission">
+        <id column="dimissionid" property="dimissionid" />
+        <result column="employeeid" property="employeeid" />
+        <result column="departmentid" property="departmentid" />
+        <result column="dimtimes" property="dimtimes" />
+        <result column="dimreasona" property="dimreasona" />
+    </resultMap>
+
+</mapper>

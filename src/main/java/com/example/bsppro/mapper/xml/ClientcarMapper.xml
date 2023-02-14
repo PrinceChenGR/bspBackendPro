@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.bsppro.mapper.ClientcarMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.bsppro.entity.Clientcar">
+        <id column="cno" property="cno" />
+        <result column="clientno" property="clientno" />
+        <result column="ctsid" property="ctsid" />
+        <result column="driver" property="driver" />
+        <result column="driverphone" property="driverphone" />
+        <result column="driverbirth" property="driverbirth" />
+        <result column="clicang" property="clicang" />
+        <result column="purchasetime" property="purchasetime" />
+        <result column="jctime" property="jctime" />
+    </resultMap>
+
+</mapper>
