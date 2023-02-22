@@ -37,25 +37,28 @@ public class CartypesController {
 
     @GetMapping("/{id}")
     public Response<Cartypes> where(@PathVariable Long id) {
-        log.info("cartypes/id=" + id);
+        log.info("cartypes/" + id);
         Cartypes cartypes = cartypesService.getById(id);
         return Response.ok(cartypes);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping()
     public Response<Boolean> update(@RequestBody Cartypes cartypes) {
+        log.info("cartypes");
         cartypesService.update(cartypes);
         return Response.ok(true);
     }
 
     @PostMapping("")
     public Response<Boolean> create(@RequestBody Cartypes cartypes) {
+        log.info("cartypes");
         cartypesService.create(cartypes);
         return Response.ok(true);
     }
 
     @DeleteMapping("/{id}")
     public Response<Boolean> delete(@PathVariable Long id) {
+        log.info("cartypes/"+id);
         cartypesService.removeById(id);
         return Response.ok(true);
     }
