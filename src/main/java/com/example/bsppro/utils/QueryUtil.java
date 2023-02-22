@@ -5,15 +5,10 @@
 
 package com.example.bsppro.utils;
 
-import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import io.swagger.annotations.ApiModel;
 
 import java.util.Map;
 
-@ApiModel(
-        description = "查询条件"
-)
 public class QueryUtil {
 
     public static <T> Page<T> GetPage(Map<String, Object> query) {
